@@ -7,15 +7,20 @@ tags:
 
 This is an issue tracker for software with no support for JPEG XL. Check [this list](https://github.com/libjxl/libjxl/blob/main/doc/software_support.md) for supported software.
 
-* [Libreoffice](https://bugs.documentfoundation.org/show_bug.cgi?id=156931)
 * [Kolourpaint](https://bugs.kde.org/show_bug.cgi?id=462109)
-* [Ghostwriter](https://bugs.kde.org/show_bug.cgi?id=473776)
 * [Ueberzug](https://github.com/ueber-devel/ueberzug/issues/17). But its fork:
 [Ueberzugpp](https://github.com/jstkdng/ueberzugpp) supports jxl.
 * [Pillow](https://github.com/python-pillow/Pillow/issues/4247)
+* [VSCode](https://github.com/microsoft/vscode/issues/191376)
+
+Documents:
+* [Libreoffice](https://bugs.documentfoundation.org/show_bug.cgi?id=156931): 2023-08-26
+* [Marktext](https://github.com/marktext/marktext/issues/3671): 2023-08-27
+* [Ghostwriter](https://bugs.kde.org/show_bug.cgi?id=473776): 2023-08-26
+
+PDF:
 * [Ghostscript](https://bugs.ghostscript.com/show_bug.cgi?id=703844)
 * [SumatraPDF](https://github.com/sumatrapdfreader/sumatrapdf/issues/1943)
-* [VSCodium](https://github.com/microsoft/vscode/issues/191376)
 
 Metadata:
 * [Exiftool](https://github.com/exiftool/exiftool/issues/157): not all metadata supported.
@@ -34,7 +39,10 @@ Metadata:
 ## Android
 * [AOSP Gallery](https://issuetracker.google.com/issues/259900694)
 * [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery/issues/2669)
+* [Ionut's Gallery](https://github.com/IacobIonut01/Gallery/issues/145)
+* [Aves](https://github.com/deckerst/aves/issues/56)
 * [Material Files](https://github.com/zhanghai/MaterialFiles/issues/995)
+* [Amaze File Manager](https://github.com/TeamAmaze/AmazeFileUtilities/issues/124)
 
 ## Messaging apps
 * [Signal](https://community.signalusers.org/t/50331)
