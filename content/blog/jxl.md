@@ -18,6 +18,7 @@ and the [Arch Wiki](https://wiki.archlinux.org/title/JPEG_XL#Support) for suppor
 ## Software
 * [Pillow](https://github.com/python-pillow/Pillow/issues/4247): (2019-12-04) Python image library many projects depend on for correct rendering.
 	+ [Ueberzug](https://github.com/ueber-devel/ueberzug/issues/17): depends on Pillow.
+* [libgd](https://github.com/libgd/libgd/issues/699)
 * [VSCode](https://github.com/microsoft/vscode/issues/191376)
 
 Photo editors:
@@ -31,6 +32,7 @@ Websites:
 * [PixelFed](https://github.com/pixelfed/pixelfed/issues/3102): (2021-12-29)
 * [Mastodon](https://github.com/mastodon/mastodon/issues/20896): (2022-11-16)
 * [Lemmy](https://github.com/LemmyNet/lemmy/issues/3282): (2023-06-23)
+* [Wordpress](https://github.com/WordPress/performance/issues/12)
 
 Documents:
 * [Libreoffice](https://bugs.documentfoundation.org/show_bug.cgi?id=156931): (2023-08-26)
@@ -59,3 +61,8 @@ Metadata:
 * [Matrix](https://github.com/matrix-org/matrix-spec-proposals/pull/4030)
 * Telegram iOS
 * Telegram Android
+
+## Supported
+* [nsxiv](https://codeberg.org/nsxiv/nsxiv)
+* Librewolf: [Enabled by default](https://gitlab.com/librewolf-community/browser/source/-/merge_requests/53)
+* [The Lounge](https://github.com/thelounge/thelounge/pull/4219)
