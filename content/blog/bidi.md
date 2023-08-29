@@ -51,3 +51,7 @@ Open issues:
 * 2018-11-03: [Discord](https://support.discord.com/hc/en-us/community/posts/360030086752-Add-Right-to-Left-RTL-support-to-Discord)
 * 2023-06-03: [Tutanota](https://www.reddit.com/r/tutanota/comments/13z584n/)
 * 2021-07-21: [Lemmy](https://github.com/LemmyNet/lemmy-ui/issues/347)
+
+## Workarounds
+* [add-bidi-support](https://github.com/ahangarha/add-bidi-support): a Firefox addon to demonstrate bidi support on web pages.
+* [markdown-it-bidi](https://github.com/dobidi/markdown-it-bidi): a plugin for markdown-it project to add bidi support to md-to-html parsers.
