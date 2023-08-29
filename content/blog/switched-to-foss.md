@@ -1,5 +1,5 @@
 ---
-title: The future is FOSS
+title: Switched to FOSS
 date: 2023-08-26
 ---
 

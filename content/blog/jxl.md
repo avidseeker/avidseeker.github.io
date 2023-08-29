@@ -27,6 +27,7 @@ Photo editors:
 
 Image viewers:
 * [PowerToys](https://github.com/microsoft/PowerToys/issues/21814)
+* [ImageGlass](https://github.com/d2phap/ImageGlass/issues/940)
 
 Websites:
 * [PixelFed](https://github.com/pixelfed/pixelfed/issues/3102): (2021-12-29)
