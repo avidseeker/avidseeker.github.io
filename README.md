@@ -1,10 +1,4 @@
----
-title: Home
-menu: main
-weight: 1
----
-
-Just an avid seeker.
+## [Just an avid seeker](https://avidseeker.github.io/)
 
 Links:
 * [GitHub](https://github.com/avidseeker): avidseeker

@@ -116,3 +116,6 @@ Thanks for your contributions and responsiveness to closing these issues.
 * Fujiwara San
 * Matthias Clasen
 * Mike Fabian
+
+On an unrelated note, single-key compose sequence might be an easy implementation for
+[Tom Scott's](https://youtu.be/lIFE7h3m40U) emoji keyboard.

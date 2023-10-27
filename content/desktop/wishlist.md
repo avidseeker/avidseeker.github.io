@@ -1,7 +1,20 @@
 ---
-title: Sane defaults
-date: 2023-08-25
+title: Software Wishlist
 ---
+
+* Emoji for Arabic language flag
+
+## Mind mapping software
+* https://news.ycombinator.com/item?id=32838475
+* https://unixsheikh.com/tutorials/poor-mans-mind-mapping-tool-with-just-the-terminal.html
+
+## Games
+Puzzle games that would be great to have as FOSS (like Lichess).
+
+* Numberlink game (FreeFlow)
+* UnblockMe
+
+## Sane defaults
 
 Sane post-installation walkthrough for any Linux distro:
 1. Set up auto-cleaners for pacman and pamac caches.

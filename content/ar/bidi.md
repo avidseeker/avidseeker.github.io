@@ -23,6 +23,7 @@ KDE problems:
 * [Libreoffice metabug thread](https://bugs.documentfoundation.org/show_bug.cgi?id=112810)
 * [Non-persisting text direction](https://bugs.documentfoundation.org/show_bug.cgi?id=151857)
 * [Break line on text direction change](https://bugs.documentfoundation.org/show_bug.cgi?id=56408)
+* [Plaintext autodetect direction](https://bugs.documentfoundation.org/show_bug.cgi?id=157037)
 
 Fixed:
 * [Squiggly lines covering misspelled Arabic words](https://bugs.documentfoundation.org/show_bug.cgi?id=151968): libreoffice-7-5

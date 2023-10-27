@@ -29,6 +29,9 @@ Image viewers:
 * [PowerToys](https://github.com/microsoft/PowerToys/issues/21814)
 * [ImageGlass](https://github.com/d2phap/ImageGlass/issues/940)
 
+Wallpapers:
+* [xwallpaper](https://github.com/stoeckmann/xwallpaper/issues/48)
+
 Websites:
 * [PixelFed](https://github.com/pixelfed/pixelfed/issues/3102): (2021-12-29)
 * [Mastodon](https://github.com/mastodon/mastodon/issues/20896): (2022-11-16)
@@ -60,8 +63,13 @@ Metadata:
 * [Signal](https://community.signalusers.org/t/50331)
 * [Telegram Desktop](https://github.com/telegramdesktop/tdesktop/pull/25572)
 * [Matrix](https://github.com/matrix-org/matrix-spec-proposals/pull/4030)
+* [FluffyChat](https://github.com/krille-chan/fluffychat/issues/547)
+* [Element.io](https://github.com/vector-im/element-meta/discussions/2023)
 * Telegram iOS
 * Telegram Android
+
+## Misc bugs
+* [jxlviewer](https://github.com/oupson/jxlviewer/issues/26): not associated with image/jxl mimetype.
 
 ## Supported
 * [nsxiv](https://codeberg.org/nsxiv/nsxiv)

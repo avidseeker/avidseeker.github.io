@@ -1,5 +1,5 @@
 ---
-title: Switched to FOSS
+title: Corporations that switched to FOSS
 date: 2023-08-26
 ---
 

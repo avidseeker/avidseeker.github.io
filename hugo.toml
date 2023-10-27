@@ -31,16 +31,11 @@ enableRobotsTXT = true
     [languages.en.params]
       blogPath = "/" # Path to your blog section (used by RSS)
       madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
-  [languages.ar]
-    title = "Avid Seeker"
-    languageName = "Arabic"
-    LanguageCode = "ar"
-    contentDir = "content.pt"
-    [languages.pt.params]
-      blogPath = "/ar/" # Path to your blog section (used by RSS)
 
 [permalinks]
   blog = "/:slugorfilename/"
+  ar = "/:slugorfilename/"
+  desktop = "/:slugorfilename/"
 
 [params]
   description = "Random notes of an Avid Seeker"
