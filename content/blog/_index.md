@@ -11,6 +11,7 @@ weight: 2
 
 ## Issues
 * [efibootmgr: unreadable kernel cmdline](https://github.com/rhboot/efibootmgr/issues/195)
+* lf: [promptfmt in win title](https://github.com/gokcehan/lf/issues/1484)
 
 Xorg DE button support:
 * XF86RotateWindows: [kde](https://bugs.kde.org/show_bug.cgi?id=472803),
@@ -26,10 +27,11 @@ KDE:
 * [Respect XDG user-dirs](https://bugs.kde.org/show_bug.cgi?id=465100)
 * [Protocol should default to sftp instead of mailto](https://bugs.kde.org/show_bug.cgi?id=473032)
 
-XFCE:
+## XFCE
 * [Terminal system font](https://gitlab.xfce.org/apps/xfce4-terminal/-/issues/254): [rh](https://bugzilla.redhat.com/show_bug.cgi?id=2229510)
 * Activate nth window: I'm used to Super+1, Super+2, Super+3, ... in other DEs
 to activate the first window, second window and so on.
 * [Enabling xim causes mouse scroll to switch tabs](https://gitlab.xfce.org/apps/xfce4-terminal/-/issues/232)
 * [Reuse instance of screenshooter](https://gitlab.xfce.org/apps/xfce4-screenshooter/-/issues/112)
 * [Screen rotation](https://gitlab.xfce.org/xfce/xfce4-settings/-/issues/82#note_76260)
+* [Battery charged spam](https://gitlab.xfce.org/xfce/xfce4-power-manager/-/issues/22)

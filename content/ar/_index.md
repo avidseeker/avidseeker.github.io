@@ -25,9 +25,9 @@ Arabic Tux:
 * [Auto-detecting CTL](https://bugs.documentfoundation.org/show_bug.cgi?id=157037)
 
 ## OSM
-1. [Arab Map Blog](https://arabmap.wordpress.com)
-2. [Good Twitter thread with resources](https://rattibha.com/thread/1217198926161424384)
-1. OSM Iraq Telegram Group: t.me/OSM_Iraq
-2. OSM Saudi Telegram Group: t.me/OSMSaudi
-3. OSM Yemen Telegram Group: t.me/OSMYemen
-4. OSM Arab Telegram Group: t.me/ArabOsm
+* [Arab Map Blog](https://arabmap.wordpress.com)
+* [Good Twitter thread with resources](https://rattibha.com/thread/1217198926161424384)
+* OSM Iraq Telegram Group: t.me/OSM_Iraq
+* OSM Saudi Telegram Group: t.me/OSMSaudi
+* OSM Yemen Telegram Group: t.me/OSMYemen
+* OSM Arab Telegram Group: t.me/ArabOsm
