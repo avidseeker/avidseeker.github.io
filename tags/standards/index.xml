@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Standards on Avid Seeker</title>
+    <link>http://avidseeker.github.io/tags/standards/</link>
+    <description>Recent content in Standards on Avid Seeker</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>avidseeker7@protonmail.com (Avid Seeker)</managingEditor>
+    <webMaster>avidseeker7@protonmail.com (Avid Seeker)</webMaster>
+    <copyright>AvidSeeker (CC-BY-SA 4 or GFDL)</copyright>
+    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://avidseeker.github.io/tags/standards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Language Flags</title>
+      <link>http://avidseeker.github.io/lang-flags/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
+      <guid>http://avidseeker.github.io/lang-flags/</guid>
+      <description>National flags are not languages, and so they should not be used to represent them. There are multiple proposals such as using generic methods like names, ISO codes, or generic icons (see language icon). However, flags could provide a visually distinct and efficient way to identify languages among hundreds of each other.&#xA;Draft: Design practices Symbol and Typography: Each language flag shall feature a prominent, easily recognizable symbol or letter representative of the language&amp;rsquo;s name or phonetic characteristics.</description>
+    </item>
+    <item>
+      <title>Placeholders</title>
+      <link>http://avidseeker.github.io/placeholders/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
+      <guid>http://avidseeker.github.io/placeholders/</guid>
+      <description>BIP word list Lorem Ipsum Arabic Taken from the first of the Mu&amp;rsquo;allaqat: Imru&amp;rsquo; al-Qais Muallaqa&#xA;قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيْبٍ وَمَنْزِلِ بِسِقْطِ اللِّوَى بَيْنَ الدَّخُولِ فَحَوْمَلِ فَتُوْضِحَ فَالمِقْرَاةِ لم يَعْفُ رَسْمُهَا لِمَا نَسَجَتْهَا مِنْ جَنُوبٍ وَشَمْأَلِ تَرَى بَعَرَ الأرْآمِ في عَرَصَاتِهَا وَقِيْعَانِهَا كَأَنَّهُ حَبُّ فُلْفُلِ كَأَنِّيْ غَدَاة َ البَيْنِ يَوْمَ تَحَمَّلُوا لَدَى سَمُرَاتِ الحَيِّ نَاقِفُ حَنْظَلِ وُقُوْفًا بِهَا صَحْبِيْ عَليََّ مَطِيَّهُمْ يَقُولُونَ لا تَهْلِكْ أَسًى وَتَجَمَّلِ وَإِنَّ شِفَائِيْ عَبْرَةٌ مَهَراقَةٌ فهَلْ عِنْدَ رَسْمٍ دَارِسٍ مِنْ مُعَوَّلِ كَدِينِكَ مِنْ أُمِّ الحُوَيْرِثِ قَبْلَهَـا وَجَارَتِهَا أُمِّ الرَّبَابِ بِمَأْسَلِ فَفَاضَتْ دُمُوعُ العَيْنِ مِنِّيْ صَبَابَةً عَلَى النَّحْرِ حَتَّى بَلَّ دَمْعِيَ مِحْمَلِي أَلا رُبَّ يَوْمٍ لَكَ مِنْهُنَّ صَالِحٍ وَلا سِيَّمَا يَوْمٌ بِدَارَةِ جُلْجُلِ وَيَوْمَ عَقَرْتُ لِلْعَذَارَى مَطِيَّتِيْ فَيَا عَجَبًا مِنْ رَحْلِهَا المُتَحَمَّلِ Place holder names English:</description>
+    </item>
+  </channel>
+</rss>

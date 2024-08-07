@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Avid Seeker</title>
+    <link>http://avidseeker.github.io/categories/</link>
+    <description>Recent content in Categories on Avid Seeker</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>avidseeker7@protonmail.com (Avid Seeker)</managingEditor>
+    <webMaster>avidseeker7@protonmail.com (Avid Seeker)</webMaster>
+    <copyright>AvidSeeker (CC-BY-SA 4 or GFDL)</copyright>
+    <atom:link href="http://avidseeker.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

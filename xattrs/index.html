@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="favicon.png" />
+<title>Guidelines for extended attributes | Avid Seeker</title>
+<meta name="title" content="Guidelines for extended attributes" />
+<meta name="description" content="Draft A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs). Attribute for binding files with each other. See here. Dolphin ASCII xattrs The following is an update of the original XDG proposal since 2013.
+Extended attributes (xattrs) can be set in different namespaces. Linux uses &ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and proposes attributes in the &ldquo;user&rdquo; namespace.
+To avoid future conflicts between attributes, application-specific attributes must be namespaced using reverse-DNS naming style." />
+<meta name="keywords" content="" />
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Guidelines for extended attributes" />
+<meta property="og:description" content="Draft A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs). Attribute for binding files with each other. See here. Dolphin ASCII xattrs The following is an update of the original XDG proposal since 2013.
+Extended attributes (xattrs) can be set in different namespaces. Linux uses &ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and proposes attributes in the &ldquo;user&rdquo; namespace.
+To avoid future conflicts between attributes, application-specific attributes must be namespaced using reverse-DNS naming style." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://avidseeker.github.io/xattrs/" />
+
+<meta property="og:image" content="http://avidseeker.github.io/images/social_card_bg_hu0f7c7fe460ec4b5e9751ccb8d9c9aa0f_651110_077c39ad4eae0ef21d249cbca2a436ca.webp"/><meta property="article:section" content="" />
+<meta property="article:published_time" content="2023-08-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-08-29T00:00:00+00:00" /><meta property="og:site_name" content="Avid Seeker" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://avidseeker.github.io/images/social_card_bg_hu0f7c7fe460ec4b5e9751ccb8d9c9aa0f_651110_077c39ad4eae0ef21d249cbca2a436ca.webp"/>
+
+<meta name="twitter:title" content="Guidelines for extended attributes"/>
+<meta name="twitter:description" content="Draft A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs). Attribute for binding files with each other. See here. Dolphin ASCII xattrs The following is an update of the original XDG proposal since 2013.
+Extended attributes (xattrs) can be set in different namespaces. Linux uses &ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and proposes attributes in the &ldquo;user&rdquo; namespace.
+To avoid future conflicts between attributes, application-specific attributes must be namespaced using reverse-DNS naming style."/>
+
+
+<meta itemprop="name" content="Guidelines for extended attributes">
+<meta itemprop="description" content="Draft A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs). Attribute for binding files with each other. See here. Dolphin ASCII xattrs The following is an update of the original XDG proposal since 2013.
+Extended attributes (xattrs) can be set in different namespaces. Linux uses &ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and proposes attributes in the &ldquo;user&rdquo; namespace.
+To avoid future conflicts between attributes, application-specific attributes must be namespaced using reverse-DNS naming style."><meta itemprop="datePublished" content="2023-08-29T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-08-29T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1480">
+
+<meta itemprop="image" content="http://avidseeker.github.io/images/social_card_bg_hu0f7c7fe460ec4b5e9751ccb8d9c9aa0f_651110_077c39ad4eae0ef21d249cbca2a436ca.webp"/>
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/style.min.css" rel="stylesheet">
+
+  
+  <link href="/syntax.min.css" rel="stylesheet">
+
+  
+
+  
+</head>
+
+<body>
+  <header><a href="/" class="title"><h1>Avid Seeker</h1></a>
+<nav>
+  <a href="/">Home</a>
+
+  <a href="/linux-journey/">My Linux Journey with some desktips</a>
+
+  <a href="/arabic/">Arabic Linux</a>
+
+
+<a href='mailto:avidseeker7@protonmail.com?subject=Reply%20to%20"Guidelines%20for%20extended%20attributes"'>Email</a>
+
+<a href="/index.xml">RSS</a>
+
+
+
+
+
+
+
+</nav>
+</header>
+  <main>
+
+<h1>Guidelines for extended attributes</h1>
+<p>
+  <i>
+    <time datetime='2023-08-29' pubdate>
+      2023-08-29
+    </time>
+  </i>
+</p>
+
+<content>
+  <h2 id="draft">Draft</h2>
+<ul>
+<li>A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs).</li>
+<li>Attribute for binding files with each other. See <a href="https://bbs.archlinux.org/viewtopic.php?pid=2114455#p2114455">here</a>.</li>
+<li><a href="https://discuss.kde.org/t/4392">Dolphin ASCII xattrs</a></li>
+</ul>
+<p>The following is an update of the <a href="https://www.freedesktop.org/wiki/CommonExtendedAttributes/">original XDG proposal</a> since 2013.</p>
+<hr>
+<p>Extended attributes (xattrs) can be set in different namespaces. Linux uses
+&ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and
+proposes attributes in the &ldquo;user&rdquo; namespace.</p>
+<p>To avoid future conflicts between attributes, application-specific attributes
+must be namespaced using reverse-DNS naming style. Standard DNS mapping places a
+subdomain (<strong>WWW</strong>) before a domain (<strong>EXAMPLE</strong>) before the top-level
+(<strong>COM</strong>), all separated by periods. In Common Extended Attributes, this is done
+backwards, in which the top level (<strong>user</strong>) appears first, followed
+(optionally) by one or more application-specific namespaces, followed by the
+attribute name, all separated by periods.</p>
+<p>For example, information about a document might include: number of words, number
+of characters, number of chapters, and so on. These attributes might be added by
+your word processor or manually inserted using an attribute editor. Since they
+would change every time you edited the document, you wouldn&rsquo;t want to include
+them as a part of your document unless the information was specifically marked
+as being information about the document (&ldquo;metadata&rdquo;) in which case either it&rsquo;s
+kept in the document as a special marked internal value (e.g. an attribute) or
+is stored outside the document as an attribute. The difference being, at least
+in theory, one could examine the attribute data about a file without changing
+the last access date/time of that file. Thus information not directly related to
+the file itself could be stored externally to the file, such as comments, lists
+of contributors, and so on.</p>
+<p>To prevent one program from misreading attributes written by another - and
+becoming confused or crashing if what it expects for an attribute is not the
+same as what was written by the other program - it is recommended that at least
+one application-specific namespace be used before the attribute, to avoid
+conflicting use of attributes, unless the attribute is such that it is unique to
+the file, is unambiguous, and would not be used for any other purpose, e.g. an
+attribute like &ldquo;creation-date&rdquo; or &ldquo;last-modified-date&rdquo; might be acceptable as an
+attribute without a name space, but an attribute such as &ldquo;Status&rdquo; might not be
+as what status represents is probably ambiguous. On the other hand, an attribute
+such as &ldquo;document-status&rdquo; or &ldquo;document.status&rdquo; would be a better choice (it
+would also allow other forms of a &ldquo;status&rdquo; value to be associated with the
+file.)</p>
+<p>Then there is the issue of the value for the attribute, if it is not in an
+application-specific namespace like <em>user.mywordprocessor.lasteditdate</em> as
+opposed to <em>user.lasteditdate</em>, which value for &ldquo;lasteditdate&rdquo; is going to be
+used? There are probably a half-dozen ways to store dates on computers, many
+conflicting with each other. For example, is the date 04/05/06 the value April
+4, 2006, May 4, 2006, or May 6, 2004? (All three of these interpretations have
+been validly used for ambiguous date values). And does the date include the
+time? And is it local time or UTC?</p>
+<p>Any attribute for a specific application using the file must be in an
+application-specific namespace in order to prevent conflicts such as the one
+given above. The application-specific namespace should probably either be the
+name of the company producing the application, a general identifier which
+indicates the application, or both. So, as in the example above, the company
+making the product &ldquo;mywordprocessor&rdquo; would put all of the extended attributes in
+the form user.mywordprocessor.<em>attribute</em> where &ldquo;attribute&rdquo; is whatever extended
+attribute used by that program. This would prevent some other program
+accidentally changing or contaminating an attribute it is using.</p>
+<p>This recommendation also applies on Mac OS X, where for example the resource
+fork is stored as an extended attribute with the key
+&ldquo;com.apple.<a href="https://secure.freedesktop.org/write/www/ikiwiki.cgi?do=create&from=CommonExtendedAttributes&page=ResourceFork">?</a>ResourceFork&rdquo;.
+Attributes specified by freedesktop.org are prefixed with &ldquo;xdg&rdquo;.</p>
+<p>Attribute strings should be in UTF-8 encoding.</p>
+<h2 id="general-attributes-in-current-use">General attributes in current use</h2>
+<ul>
+<li><code>user.mime_type</code>: Sets the MIME type of a file explicitly. This attribute is
+documented by the &ldquo;Shared MIME-info Database
+Specification&rdquo;(<a href="https://specifications.freedesktop.org/shared-mime-info-spec)">https://specifications.freedesktop.org/shared-mime-info-spec)</a>. It
+says:   * &ldquo;An implementation MAY also get a file&rsquo;s MIME type from the
+user.mime_type extended attribute. The type given here should normally be used
+in preference to any guessed type, since the user is able to set it explicitly.
+Applications MAY choose to set the type when saving files. Since many
+applications and filesystems do not support extended attributes, implementations
+MUST NOT rely on this method being available.&rdquo;</li>
+<li><code>user.charset</code>: The character encoding of a file. This attribute can be useful
+if the encoding is different than the platform default. It is used by the Apache
+httpd module mod_mime_xattr
+(<a href="http://0pointer.de/lennart/projects/mod_mime_xattr)">http://0pointer.de/lennart/projects/mod_mime_xattr)</a>.</li>
+<li><code>user.creator</code>: The name of the application that created the file. The ROX
+Contact Manager &ldquo;Contact&rdquo; sets this value to &ldquo;Contact&rdquo;
+(<a href="http://roxos.sunsite.dk/dev-contrib/guido/Contacts/)">http://roxos.sunsite.dk/dev-contrib/guido/Contacts/)</a>. This meaning of the
+creator string is different from the meaning in Dublin core</li>
+</ul>
+<h2 id="proposed-metadata-attributes">Proposed metadata attributes</h2>
+<p>Extended attributes are especially useful when they add information that is not
+present in the in the actual file. Depending on the file origin, an application
+can add metadata that is not present and/or can not be specified by the file or
+its format. For example file downloaded from a web server can be tagged with the
+URL, which can be convenient if its source has to be determined in the future.
+Likewise, an email attachment can when saved be tagged with the message-id of
+the email. This will make it possible to trace the original message.</p>
+<p>These attributes are currently proposed:</p>
+<ul>
+<li><code>user.xdg.comment</code>: A comment specified by the user. This comment could be
+displayed by file managers</li>
+<li><code>user.xdg.language</code>: Language of the intellectual content of the resource. The
+value should follow the syntax described in RFC 3066 in conjunction with ISO 639
+language codes. When a file is downloaded using HTTP, the value of the
+Content-Language HTTP header can if present be copied into this attribute. See
+also the Language element in Dublin core.</li>
+<li><code>user.xdg.creator</code>: Reserved but not yet defined. The string &ldquo;user&rdquo; has a
+different meaning in ROX Contact Manager (creating application) compared with
+Dublin core (creating person/entity).</li>
+<li><code>user.xdg.publisher</code>: Name of the creating application. See also the Publisher
+element in Dublin core.</li>
+<li><code>user.xdg.tags</code>: comma-delimited string of file tags. A proposed tag is to use
+<code>favorite</code> to list bookmarked files in file managers.</li>
+<li><code>user.xdg.currentpage</code>: used by document viewers to retrieve last read page.
+This way all document viewers agree on what page to retrieve.</li>
+</ul>
+<h3 id="network-related-attributes">Network-related attributes</h3>
+<ul>
+<li><code>user.xdg.origin.url</code>: Set on a file downloaded from a URL. Its value should
+equal the URL it was downloaded from.</li>
+<li><code>user.xdg.origin.referrer</code>: Set on a file downloaded from a URL. Its value
+should equal the page that redirected to the download link. This is used as a
+fallback for <code>user.xdg.origin.url</code> in case the direct download link expires or
+was of CDN, in which case the user might be more interested in knowing the
+referrer page.</li>
+<li><code>user.xdg.origin.email.subject</code>: Set on an email attachment when saved to
+disk. It should get its value from the originating message&rsquo;s &ldquo;Subject&rdquo; header</li>
+<li><code>user.xdg.origin.email.from</code>: Set on an email attachment when saved to disk.
+It should get its value from the originating messsage&rsquo;s &ldquo;From&rdquo; header. For
+example &lsquo;&ldquo;John Doe&rdquo; &lt;<a href="mailto:jdoe@example.com">jdoe@example.com</a>&gt;&rsquo;, or
+&lsquo;<a href="mailto:jdoe@example.com">jdoe@example.com</a>&rsquo;</li>
+<li><code>user.xdg.origin.email.message-id</code>: Set on an email attachment when saved to
+disk. It should get its value from the originating message&rsquo;s &ldquo;Message-Id&rdquo;
+header.</li>
+</ul>
+<h3 id="control-attributes">Control attributes</h3>
+<p>Extended attributes could also act as flags for backup programs, indexing
+programs and similar, to control their behavior. Below is an initial proposal
+for start of discussion, to alter the default behavior. They are inspired by
+html attributes to control web crawling.</p>
+<ul>
+<li><code>user.xdg.robots.index</code>: On a file: &ldquo;true&rdquo; to index, &ldquo;false&rdquo; to not index. On
+a directory: &ldquo;true&rdquo; to traverse the into the directory for indexing, &ldquo;false&rdquo; for
+not traversing into it.</li>
+<li><code>user.xdg.robots.backup</code>: On a file: &ldquo;true&rdquo; to index, &ldquo;false&rdquo; to not backup.
+On a directory: &ldquo;true&rdquo; to traverse the into the directory for backup, &ldquo;false&rdquo;
+for not traversing into it.</li>
+</ul>
+<h2 id="relation-to-dublin-core">Relation to Dublin Core</h2>
+<p>Dublin Core is a standard for cross-domain information resource description. The
+Simple Dublin Core Metadata Element Set defines 15 elements. Applications that
+have knowledge of Dublin Core metadata may choose to set this metadata as
+extended attributes on a file when it saves it. Some of these elements have
+counterparts in the xdg name space, but then with more strict or detailed syntax
+or meaning. Attributes in the Dublin core namespace are currently not further
+specified.</p>
+<ul>
+<li><code>user.dublincore.title </code></li>
+<li><code>user.dublincore.creator</code> See also user.xdg.creator</li>
+<li><code>user.dublincore.subject</code></li>
+<li><code>user.dublincore.description</code></li>
+<li><code>user.dublincore.publisher</code></li>
+<li><code>user.dublincore.contributor</code></li>
+<li><code>user.dublincore.date</code></li>
+<li><code>user.dublincore.type</code></li>
+<li><code>user.dublincore.format</code></li>
+<li><code>user.dublincore.identifier</code></li>
+<li><code>user.dublincore.source</code></li>
+<li><code>user.dublincore.language</code> See also user.xdg.language</li>
+<li><code>user.dublincore.relation</code></li>
+<li><code>user.dublincore.coverage</code></li>
+<li><code>user.dublincore.rights</code></li>
+</ul>
+<h2 id="application-specific-attributes-in-current-use">Application-specific attributes in current use</h2>
+<ul>
+<li><code>user.mime_encoding</code>: This attribute defines the MIME encoding to use when
+serving a file with Apache httpd. It is used by mod_mime_xattr.</li>
+<li><code>user.apache_handler</code>: This attribute is used by mod_mime_xattr to define the
+Apache handler for a file.</li>
+</ul>
+<p>Used by Beagle:</p>
+<ul>
+<li>`user.Beagle.<a href="https://secure.freedesktop.org/write/www/ikiwiki.cgi?do=create&from=CommonExtendedAttributes&page=AttrTime">?</a>AttrTime</li>
+<li><code>user.Beagle.Fingerprint</code></li>
+<li><code>user.Beagle.MTime</code></li>
+<li><code>user.Beagle.Uid</code></li>
+</ul>
+<p>Used by KDE Dolphin and Baloo:</p>
+<ul>
+<li><code>user.baloo.rating</code>: how many stars</li>
+</ul>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer><small>
+  AvidSeeker (CC-BY-SA 4 or GFDL) | 
+</small></footer>
+
+    
+</body>
+
+</html>

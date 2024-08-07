@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arabic on Avid Seeker</title>
+    <link>http://avidseeker.github.io/tags/arabic/</link>
+    <description>Recent content in Arabic on Avid Seeker</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>avidseeker7@protonmail.com (Avid Seeker)</managingEditor>
+    <webMaster>avidseeker7@protonmail.com (Avid Seeker)</webMaster>
+    <copyright>AvidSeeker (CC-BY-SA 4 or GFDL)</copyright>
+    <lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://avidseeker.github.io/tags/arabic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arabic Lam Alif problem on Linux</title>
+      <link>http://avidseeker.github.io/lam-alif/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
+      <guid>http://avidseeker.github.io/lam-alif/</guid>
+      <description>Video of the problem in Gedit&#xA;Problem: letter La (لا) keypress results in a single Unicode character (U+FEFB), instead of Lam (ل) and Alif (ا) (U+0644, U+0627) combined in one ligature. The same problem for La variants: ﻷ، ﻵ، ﻹ.&#xA;For non-Arabic speakers, this is like having a key that is supposed to send two characters: fi (U+0046 U+0049), but it sends instead one ligature: ﬁ (U+FB01).&#xA;This problem has been fixed in ibus.</description>
+    </item>
+  </channel>
+</rss>

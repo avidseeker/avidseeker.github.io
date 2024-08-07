@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Avid Seeker</title>
+    <link>http://avidseeker.github.io/tags/</link>
+    <description>Recent content in Tags on Avid Seeker</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>avidseeker7@protonmail.com (Avid Seeker)</managingEditor>
+    <webMaster>avidseeker7@protonmail.com (Avid Seeker)</webMaster>
+    <copyright>AvidSeeker (CC-BY-SA 4 or GFDL)</copyright>
+    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://avidseeker.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standards</title>
+      <link>http://avidseeker.github.io/tags/standards/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
+      <guid>http://avidseeker.github.io/tags/standards/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arabic</title>
+      <link>http://avidseeker.github.io/tags/arabic/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
+      <guid>http://avidseeker.github.io/tags/arabic/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
