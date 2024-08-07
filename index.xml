@@ -16,7 +16,7 @@
       <link>http://avidseeker.github.io/issues/</link>
       <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
       <guid>http://avidseeker.github.io/issues/</guid>
-      <description>Typesetting: Reader View for the bloated web: [Pipe-able web read view][https://unix.stackexchange.com/questions/24931/] pandoc:&#xA;LaTeX to Unicode&#xA;Embed source code in pdf, epub&#xA;Specify template in yaml.&#xA;md2tex: blockquotes&#xA;Template conditionals&#xA;internal variables&#xA;File includes&#xA;Indirect linking to references: pandoc&#xA;revealjs: shift+space&#xA;Static Site Generators hugo-bearblog wrapping Keep flat URLs Hugo Eleventy: 1// Trims first numbers in a file name 2eleventyConfig.addFilter(&amp;#34;trimSlug&amp;#34;, slug =&amp;gt; slug.replace(/^\d+-/i, &amp;#39;&amp;#39;)); Unicode Detect non-ASCII:&#xA;grep character set by font Security, URL Spoofing:</description>
+      <description>Typesetting: Reader View for the bloated web: Pipe-able web read view pandoc:&#xA;LaTeX to Unicode&#xA;Embed source code in pdf, epub&#xA;Specify template in yaml.&#xA;md2tex: blockquotes&#xA;Template conditionals&#xA;internal variables&#xA;File includes&#xA;Indirect linking to references: pandoc&#xA;revealjs: shift+space&#xA;Static Site Generators hugo-bearblog wrapping Keep flat URLs Hugo Eleventy: 1// Trims first numbers in a file name 2eleventyConfig.addFilter(&amp;#34;trimSlug&amp;#34;, slug =&amp;gt; slug.replace(/^\d+-/i, &amp;#39;&amp;#39;)); Unicode Detect non-ASCII:&#xA;grep character set by font Security, URL Spoofing:</description>
     </item>
     <item>
       <title>My Linux Journey with some desktips</title>
