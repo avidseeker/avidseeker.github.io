@@ -12,18 +12,18 @@
     <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://avidseeker.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Issue tracker</title>
+      <link>http://avidseeker.github.io/issues/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
+      <guid>http://avidseeker.github.io/issues/</guid>
+      <description>Typesetting: Reader View for the bloated web: [Pipe-able web read view][https://unix.stackexchange.com/questions/24931/] pandoc:&#xA;LaTeX to Unicode&#xA;Embed source code in pdf, epub&#xA;Specify template in yaml.&#xA;md2tex: blockquotes&#xA;Template conditionals&#xA;internal variables&#xA;File includes&#xA;Indirect linking to references: pandoc&#xA;revealjs: shift+space&#xA;Static Site Generators hugo-bearblog wrapping Keep flat URLs Hugo Eleventy: 1// Trims first numbers in a file name 2eleventyConfig.addFilter(&amp;#34;trimSlug&amp;#34;, slug =&amp;gt; slug.replace(/^\d+-/i, &amp;#39;&amp;#39;)); Unicode Detect non-ASCII:&#xA;grep character set by font Security, URL Spoofing:</description>
+    </item>
+    <item>
       <title>My Linux Journey with some desktips</title>
       <link>http://avidseeker.github.io/linux-journey/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
       <guid>http://avidseeker.github.io/linux-journey/</guid>
       <description>Here is the Linux journey I would&amp;rsquo;ve set to myself if I started getting into Linux.&#xA;Fedora: Sane defaults I&amp;rsquo;d start with Fedora KDE Plasma. KDE is the most DE with sane defaults. Fedora has a sane release schedule, and has a sane default for native packages. This is unlike Ubuntu with Snaps and flatpaks everywhere.&#xA;Sane post-installation walkthrough for any Linux distro:&#xA;Auto-cleaners for pacman and pamac caches. Mirrors Input Methods (1st step for non-English speakers) Firewall Mouse/touchpad sensitivity a.</description>
-    </item>
-    <item>
-      <title>Arabic Linux</title>
-      <link>http://avidseeker.github.io/arabic/</link>
-      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
-      <guid>http://avidseeker.github.io/arabic/</guid>
-      <description>For problems related to letter-shaping or text direction, check Bidi.&#xA;Typesetting See: Arabic LaTeX Block ligation Pandoc Typography Hindu-Arabic numerals Search and Regex grepping diacritics Characters in (U+FE8D to U+FEEF) should be considered uppercase Arabic characters. Example: 1echo ﺏﺡﺭ | grep -i &amp;#39;ب&amp;#39; Arabic typesetting:&#xA;Editors Vim:&#xA;misalignment when notermbidi termbidi autodetection ncurses support for Bidi capability Extra-wide characters Fold set termbidi rightleft rendering problem Vertical windows UBA:&#xA;W3C standard Panodc Babel Libreoffice Hugo Date conversion:</description>
     </item>
     <item>
       <title>Software Bookmarks</title>
@@ -54,11 +54,11 @@
       <description>Stop having platform-locked playlists. Liberate them.&#xA;I was looking for a way to view some of my friends&amp;rsquo; playlists locally. Wouldn&amp;rsquo;t it be great if you can diff and version-control youtube playlists, compare them with each other, merge them, simply liberating them from being platform-locked by youtube?&#xA;This is a simple yt2m3u script I wrote for downloading playlists as plaintext:&#xA;1yt2m3u 2#!/bin/sh 3yt-dlp \ 4&#x9;--convert-thumbnails jpg \ 5&#x9;--write-thumbnail -o &amp;#34;thumbnail:%(id)s.</description>
     </item>
     <item>
-      <title>Issue tracker</title>
-      <link>http://avidseeker.github.io/issues/</link>
+      <title>Arabic Linux</title>
+      <link>http://avidseeker.github.io/arabic/</link>
       <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
-      <guid>http://avidseeker.github.io/issues/</guid>
-      <description>Typesetting: Reader View for the bloated web: [Pipe-able web read view][https://unix.stackexchange.com/questions/24931/] pandoc:&#xA;LaTeX to Unicode&#xA;Embed source code in pdf, epub&#xA;Specify template in yaml.&#xA;md2tex: blockquotes&#xA;Template conditionals&#xA;internal variables&#xA;File includes&#xA;Indirect linking to references: pandoc&#xA;revealjs: shift+space&#xA;Static Site Generators hugo-bearblog wrapping Keep flat URLs Hugo Eleventy: 1// Trims first numbers in a file name 2eleventyConfig.addFilter(&amp;#34;trimSlug&amp;#34;, slug =&amp;gt; slug.replace(/^\d+-/i, &amp;#39;&amp;#39;)); Unicode Detect non-ASCII:&#xA;grep character set by font Security, URL Spoofing:</description>
+      <guid>http://avidseeker.github.io/arabic/</guid>
+      <description>For problems related to letter-shaping or text direction, check Bidi.&#xA;Typesetting See: Arabic LaTeX Block ligation Pandoc Typography Hindu-Arabic numerals Search and Regex grepping diacritics Characters in (U+FE8D to U+FEEF) should be considered uppercase Arabic characters. Example: 1echo ﺏﺡﺭ | grep -i &amp;#39;ب&amp;#39; Arabic typesetting:&#xA;Editors Vim:&#xA;misalignment when notermbidi termbidi autodetection ncurses support for Bidi capability Extra-wide characters Fold set termbidi rightleft rendering problem Vertical windows UBA:&#xA;W3C standard Panodc Babel Libreoffice Hugo Date conversion:</description>
     </item>
     <item>
       <title>Language Flags</title>
