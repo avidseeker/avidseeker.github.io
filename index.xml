@@ -9,7 +9,7 @@
     <managingEditor>avidseeker7@protonmail.com (Avid Seeker)</managingEditor>
     <webMaster>avidseeker7@protonmail.com (Avid Seeker)</webMaster>
     <copyright>AvidSeeker (CC-BY-SA 4 or GFDL)</copyright>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://avidseeker.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Issue tracker</title>
@@ -17,6 +17,13 @@
       <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
       <guid>http://avidseeker.github.io/issues/</guid>
       <description>Typesetting: Reader View for the bloated web: Pipe-able web read view pandoc:&#xA;LaTeX to Unicode&#xA;Embed source code in pdf, epub&#xA;Specify template in yaml.&#xA;md2tex: blockquotes&#xA;Template conditionals&#xA;internal variables&#xA;File includes&#xA;Indirect linking to references: pandoc&#xA;revealjs: shift+space&#xA;Static Site Generators hugo-bearblog wrapping Keep flat URLs Hugo Eleventy: 1// Trims first numbers in a file name 2eleventyConfig.addFilter(&amp;#34;trimSlug&amp;#34;, slug =&amp;gt; slug.replace(/^\d+-/i, &amp;#39;&amp;#39;)); Unicode Detect non-ASCII:&#xA;grep character set by font Security, URL Spoofing:</description>
+    </item>
+    <item>
+      <title>Random</title>
+      <link>http://avidseeker.github.io/random/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
+      <guid>http://avidseeker.github.io/random/</guid>
+      <description> Hacker Emblem Previewing Locales Keyboard layouts: a latex package would be nice too. Fonts: use Font Manager for GUI or fontpreview for CLI. Trivia PSD rant in Xee Gentoo rant in urxvt Keyboard layout art:&#xA;1$ grep &amp;#39;^// This layout is&amp;#39; -A17 /usr/share/X11/xkb/symbols/us 2$ grep &amp;#39;^// This layout is&amp;#39; -A46 /usr/share/X11/xkb/symbols/fr 3$ grep &amp;#39;de facto&amp;#39; -A14 /usr/share/nvim/runtime/doc/arabic.txt </description>
     </item>
     <item>
       <title>My Linux Journey with some desktips</title>
@@ -58,7 +65,7 @@
       <link>http://avidseeker.github.io/arabic/</link>
       <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
       <guid>http://avidseeker.github.io/arabic/</guid>
-      <description>For problems related to letter-shaping or text direction, check Bidi.&#xA;Typesetting See: Arabic LaTeX Block ligation Pandoc Typography Hindu-Arabic numerals Search and Regex grepping diacritics Characters in (U+FE8D to U+FEEF) should be considered uppercase Arabic characters. Example: 1echo ﺏﺡﺭ | grep -i &amp;#39;ب&amp;#39; Arabic typesetting:&#xA;Editors Vim:&#xA;misalignment when notermbidi termbidi autodetection ncurses support for Bidi capability Extra-wide characters Fold set termbidi rightleft rendering problem Vertical windows UBA:&#xA;W3C standard Panodc Babel Libreoffice Hugo Date conversion:</description>
+      <description>For problems related to letter-shaping or text direction, check Bidi.&#xA;Date conversion:&#xA;greg2hijri: tex se, babel Typesetting See: Arabic LaTeX Block ligation Pandoc Typography Hindu-Arabic numerals Quotation i18n: freeserif Arabic font issues Search and Regex grepping diacritics Characters in (U+FE8D to U+FEEF) should be considered uppercase Arabic characters. Example: 1echo ﺏﺡﺭ | grep -i &amp;#39;ب&amp;#39; Arabic typesetting:&#xA;Editors Vim misalignment when notermbidi termbidi autodetection ncurses support for Bidi capability Extra-wide characters Fold set termbidi rightleft rendering problem Vertical windows UBA W3C standard Panodc Babel Libreoffice Hugo Combining characters Commands like tr &#39;[:upper:]&#39; &#39;[:lower:]&#39; use the current locale to determine uppercase/lowercase equivalents.</description>
     </item>
     <item>
       <title>Language Flags</title>

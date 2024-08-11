@@ -45,14 +45,14 @@ Auto-cleaners for pacman and pamac caches. Mirrors Input Methods (1st step for n
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://avidseeker.github.io/linux-journey/" />
 
-<meta property="og:image" content="http://avidseeker.github.io/images/social_card_bg_hu0f7c7fe460ec4b5e9751ccb8d9c9aa0f_651110_f6b0c1335178021b052fded87886a3f3.webp"/><meta property="article:section" content="" />
+<meta property="og:image" content="http://avidseeker.github.io/images/social_card_bg_hu4680042266504485521.webp"/><meta property="article:section" content="" />
 <meta property="article:published_time" content="2024-08-06T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-08-06T00:00:00+00:00" /><meta property="og:site_name" content="Avid Seeker" />
 
 
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://avidseeker.github.io/images/social_card_bg_hu0f7c7fe460ec4b5e9751ccb8d9c9aa0f_651110_f6b0c1335178021b052fded87886a3f3.webp"/>
+<meta name="twitter:image" content="http://avidseeker.github.io/images/social_card_bg_hu4680042266504485521.webp"/>
 
 <meta name="twitter:title" content="My Linux Journey with some desktips"/>
 <meta name="twitter:description" content="Here is the Linux journey I would&rsquo;ve set to myself if I started getting into Linux.
@@ -67,9 +67,9 @@ Fedora: Sane defaults I&rsquo;d start with Fedora KDE Plasma. KDE is the most DE
 Sane post-installation walkthrough for any Linux distro:
 Auto-cleaners for pacman and pamac caches. Mirrors Input Methods (1st step for non-English speakers) Firewall Mouse/touchpad sensitivity a."><meta itemprop="datePublished" content="2024-08-06T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2024-08-06T00:00:00+00:00" />
-<meta itemprop="wordCount" content="1064">
+<meta itemprop="wordCount" content="1136">
 
-<meta itemprop="image" content="http://avidseeker.github.io/images/social_card_bg_hu0f7c7fe460ec4b5e9751ccb8d9c9aa0f_651110_f6b0c1335178021b052fded87886a3f3.webp"/>
+<meta itemprop="image" content="http://avidseeker.github.io/images/social_card_bg_hu4680042266504485521.webp"/>
 
 
 <meta itemprop="keywords" content="" />
@@ -140,8 +140,11 @@ c. Autoscroll: a very sane default from windows that is missing for some reason 
 <li>Light/Dark theme<sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></li>
 <li>Theming options. E.g: What if users want text selection highlight to be blue (like Windows) instead of green (theme of Manjaro)</li>
 </ol>
+<p>Turn off non-sensical defaults:</p>
 <ul>
-<li>Autoscroll:</li>
+<li><a href="https://bugs.kde.org/show_bug.cgi?id=470947">Klipper</a> Logs your clipboard by default.</li>
+<li>Always-shown scrollbar: a sane default that&rsquo;s getting killed by modern
+UI.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> <a href="https://discuss.kde.org/t/12296/34">KDE</a>, <a href="https://superuser.com/questions/1720362">Firefox</a></li>
 </ul>
 <p>Discussion: <a href="https://forum.manjaro.org/t/145759">https://forum.manjaro.org/t/145759</a></p>
 <h1 id="arch-desktop-from-scratch">Arch: Desktop from scratch</h1>
@@ -180,7 +183,7 @@ one by one, look into these topics:</p>
 </ul>
 <p>Download manager: userspace downloading scripts:</p>
 <ul>
-<li><a href="https://bbs.archlinux.org/viewtopic.php?id=297313">Rootless PKGBUILD</a>.</li>
+<li><a href="https://bbs.archlinux.org/viewtopic.php?id=297313">Rootless PKGBUILD</a>: for <code>~/.local/share/{fonts,icons}</code>.</li>
 <li><a href="https://en.wikipedia.org/wiki/Metalink">Metalink</a></li>
 <li><a href="https://bbs.archlinux.org/viewtopic.php?id=286065">Distro ISOs</a>
 <ul>
@@ -248,6 +251,11 @@ There are many alternatives</p>
 <li><a href="https://bugs.kde.org/show_bug.cgi?id=461519">Dolphin: launch support</a></li>
 <li><a href="https://github.com/jceb/dex/issues/65">Dex: link support</a></li>
 <li><a href="https://gitlab.freedesktop.org/xdg/xdg-utils/-/issues/213">xdg-open: link support</a></li>
+<li>Related: <code>.directory</code> file; the equivalent of Vim modelines.
+<ul>
+<li><a href="https://discuss.kde.org/t/directory-documentation/19751/2">Documentation</a></li>
+</ul>
+</li>
 </ul>
 <h3 id="hash-sum-database">Hash sum database</h3>
 <p>The way I thought of to implement this in Linux is to have a .desktop entry as:</p>
@@ -326,6 +334,12 @@ This is a [url](/l/other.md) to another md file.
 </li>
 <li id="fn:3">
 <p>Linux Mint has this in welcome screen.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>A sane default because it shows you the current progress or
+percentage of page you&rsquo;re viewing. What&rsquo;s ironic is that websites now like
+Discourse re-invent the wheel by adding a progress line indicating where in
+the page you are.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
