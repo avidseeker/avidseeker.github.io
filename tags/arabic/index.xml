@@ -16,7 +16,7 @@
       <link>http://avidseeker.github.io/lam-alif/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate><author>avidseeker7@protonmail.com (Avid Seeker)</author>
       <guid>http://avidseeker.github.io/lam-alif/</guid>
-      <description>Video of the problem in Gedit&#xA;Problem: letter La (لا) keypress results in a single Unicode character (U+FEFB), instead of Lam (ل) and Alif (ا) (U+0644, U+0627) combined in one ligature. The same problem for La variants: ﻷ، ﻵ، ﻹ.&#xA;For non-Arabic speakers, this is like having a key that is supposed to send two characters: fi (U+0046 U+0049), but it sends instead one ligature: ﬁ (U+FB01).&#xA;This problem has been fixed in ibus.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/SrUKXuc.jpeg&#34; alt=&#34;Screenshot of the problem in Gedit&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/T1DYO3b.mp4&#34;&gt;Video of the problem in Gedit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Problem: letter La (لا) keypress results in a single Unicode character (U+FEFB),&#xA;instead of Lam (ل) and Alif (ا) (U+0644, U+0627) combined in one ligature. The&#xA;same problem for La variants: ﻷ، ﻵ، ﻹ.&lt;/p&gt;&#xA;&lt;p&gt;For non-Arabic speakers, this is like having a key that is supposed to send two&#xA;characters: &lt;code&gt;fi&lt;/code&gt; (U+0046 U+0049), but it sends instead one ligature: &lt;code&gt;ﬁ&lt;/code&gt; (U+FB01).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

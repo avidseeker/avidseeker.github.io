@@ -8,9 +8,24 @@
 <link rel="shortcut icon" href="favicon.png" />
 <title>Guidelines for extended attributes | Avid Seeker</title>
 <meta name="title" content="Guidelines for extended attributes" />
-<meta name="description" content="Draft A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs). Attribute for binding files with each other. See here. Dolphin ASCII xattrs The following is an update of the original XDG proposal since 2013.
-Extended attributes (xattrs) can be set in different namespaces. Linux uses &ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and proposes attributes in the &ldquo;user&rdquo; namespace.
-To avoid future conflicts between attributes, application-specific attributes must be namespaced using reverse-DNS naming style." />
+<meta name="description" content="Draft
+
+A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs).
+Attribute for binding files with each other. See here.
+Dolphin ASCII xattrs
+
+The following is an update of the original XDG proposal since 2013.
+
+Extended attributes (xattrs) can be set in different namespaces. Linux uses
+&ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and
+proposes attributes in the &ldquo;user&rdquo; namespace.
+To avoid future conflicts between attributes, application-specific attributes
+must be namespaced using reverse-DNS naming style. Standard DNS mapping places a
+subdomain (WWW) before a domain (EXAMPLE) before the top-level
+(COM), all separated by periods. In Common Extended Attributes, this is done
+backwards, in which the top level (user) appears first, followed
+(optionally) by one or more application-specific namespaces, followed by the
+attribute name, all separated by periods." />
 <meta name="keywords" content="" />
 
 
@@ -37,9 +52,24 @@ To avoid future conflicts between attributes, application-specific attributes mu
 
 
 <meta property="og:title" content="Guidelines for extended attributes" />
-<meta property="og:description" content="Draft A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs). Attribute for binding files with each other. See here. Dolphin ASCII xattrs The following is an update of the original XDG proposal since 2013.
-Extended attributes (xattrs) can be set in different namespaces. Linux uses &ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and proposes attributes in the &ldquo;user&rdquo; namespace.
-To avoid future conflicts between attributes, application-specific attributes must be namespaced using reverse-DNS naming style." />
+<meta property="og:description" content="Draft
+
+A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs).
+Attribute for binding files with each other. See here.
+Dolphin ASCII xattrs
+
+The following is an update of the original XDG proposal since 2013.
+
+Extended attributes (xattrs) can be set in different namespaces. Linux uses
+&ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and
+proposes attributes in the &ldquo;user&rdquo; namespace.
+To avoid future conflicts between attributes, application-specific attributes
+must be namespaced using reverse-DNS naming style. Standard DNS mapping places a
+subdomain (WWW) before a domain (EXAMPLE) before the top-level
+(COM), all separated by periods. In Common Extended Attributes, this is done
+backwards, in which the top level (user) appears first, followed
+(optionally) by one or more application-specific namespaces, followed by the
+attribute name, all separated by periods." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://avidseeker.github.io/xattrs/" />
 
@@ -53,15 +83,45 @@ To avoid future conflicts between attributes, application-specific attributes mu
 <meta name="twitter:image" content="http://avidseeker.github.io/images/social_card_bg_hu5598908680491976873.webp"/>
 
 <meta name="twitter:title" content="Guidelines for extended attributes"/>
-<meta name="twitter:description" content="Draft A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs). Attribute for binding files with each other. See here. Dolphin ASCII xattrs The following is an update of the original XDG proposal since 2013.
-Extended attributes (xattrs) can be set in different namespaces. Linux uses &ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and proposes attributes in the &ldquo;user&rdquo; namespace.
-To avoid future conflicts between attributes, application-specific attributes must be namespaced using reverse-DNS naming style."/>
+<meta name="twitter:description" content="Draft
+
+A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs).
+Attribute for binding files with each other. See here.
+Dolphin ASCII xattrs
+
+The following is an update of the original XDG proposal since 2013.
+
+Extended attributes (xattrs) can be set in different namespaces. Linux uses
+&ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and
+proposes attributes in the &ldquo;user&rdquo; namespace.
+To avoid future conflicts between attributes, application-specific attributes
+must be namespaced using reverse-DNS naming style. Standard DNS mapping places a
+subdomain (WWW) before a domain (EXAMPLE) before the top-level
+(COM), all separated by periods. In Common Extended Attributes, this is done
+backwards, in which the top level (user) appears first, followed
+(optionally) by one or more application-specific namespaces, followed by the
+attribute name, all separated by periods."/>
 
 
 <meta itemprop="name" content="Guidelines for extended attributes">
-<meta itemprop="description" content="Draft A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs). Attribute for binding files with each other. See here. Dolphin ASCII xattrs The following is an update of the original XDG proposal since 2013.
-Extended attributes (xattrs) can be set in different namespaces. Linux uses &ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and proposes attributes in the &ldquo;user&rdquo; namespace.
-To avoid future conflicts between attributes, application-specific attributes must be namespaced using reverse-DNS naming style."><meta itemprop="datePublished" content="2023-08-29T00:00:00+00:00" />
+<meta itemprop="description" content="Draft
+
+A standardized tag for marking files as &ldquo;favorite&rdquo; (E.g: featured by Nautilus but without using xattrs).
+Attribute for binding files with each other. See here.
+Dolphin ASCII xattrs
+
+The following is an update of the original XDG proposal since 2013.
+
+Extended attributes (xattrs) can be set in different namespaces. Linux uses
+&ldquo;security&rdquo;, &ldquo;system&rdquo;, &ldquo;trusted&rdquo;, and &ldquo;user&rdquo;. This document only describes and
+proposes attributes in the &ldquo;user&rdquo; namespace.
+To avoid future conflicts between attributes, application-specific attributes
+must be namespaced using reverse-DNS naming style. Standard DNS mapping places a
+subdomain (WWW) before a domain (EXAMPLE) before the top-level
+(COM), all separated by periods. In Common Extended Attributes, this is done
+backwards, in which the top level (user) appears first, followed
+(optionally) by one or more application-specific namespaces, followed by the
+attribute name, all separated by periods."><meta itemprop="datePublished" content="2023-08-29T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-08-29T00:00:00+00:00" />
 <meta itemprop="wordCount" content="1480">
 
@@ -176,14 +236,14 @@ attribute used by that program. This would prevent some other program
 accidentally changing or contaminating an attribute it is using.</p>
 <p>This recommendation also applies on Mac OS X, where for example the resource
 fork is stored as an extended attribute with the key
-&ldquo;com.apple.<a href="https://secure.freedesktop.org/write/www/ikiwiki.cgi?do=create&from=CommonExtendedAttributes&page=ResourceFork">?</a>ResourceFork&rdquo;.
+&ldquo;com.apple.<a href="https://secure.freedesktop.org/write/www/ikiwiki.cgi?do=create&amp;from=CommonExtendedAttributes&amp;page=ResourceFork">?</a>ResourceFork&rdquo;.
 Attributes specified by freedesktop.org are prefixed with &ldquo;xdg&rdquo;.</p>
 <p>Attribute strings should be in UTF-8 encoding.</p>
 <h2 id="general-attributes-in-current-use">General attributes in current use</h2>
 <ul>
 <li><code>user.mime_type</code>: Sets the MIME type of a file explicitly. This attribute is
 documented by the &ldquo;Shared MIME-info Database
-Specification&rdquo;(<a href="https://specifications.freedesktop.org/shared-mime-info-spec)">https://specifications.freedesktop.org/shared-mime-info-spec)</a>. It
+Specification&rdquo;(<a href="https://specifications.freedesktop.org/shared-mime-info-spec%29">https://specifications.freedesktop.org/shared-mime-info-spec)</a>. It
 says:   * &ldquo;An implementation MAY also get a file&rsquo;s MIME type from the
 user.mime_type extended attribute. The type given here should normally be used
 in preference to any guessed type, since the user is able to set it explicitly.
@@ -193,10 +253,10 @@ MUST NOT rely on this method being available.&rdquo;</li>
 <li><code>user.charset</code>: The character encoding of a file. This attribute can be useful
 if the encoding is different than the platform default. It is used by the Apache
 httpd module mod_mime_xattr
-(<a href="http://0pointer.de/lennart/projects/mod_mime_xattr)">http://0pointer.de/lennart/projects/mod_mime_xattr)</a>.</li>
+(<a href="http://0pointer.de/lennart/projects/mod_mime_xattr%29">http://0pointer.de/lennart/projects/mod_mime_xattr)</a>.</li>
 <li><code>user.creator</code>: The name of the application that created the file. The ROX
 Contact Manager &ldquo;Contact&rdquo; sets this value to &ldquo;Contact&rdquo;
-(<a href="http://roxos.sunsite.dk/dev-contrib/guido/Contacts/)">http://roxos.sunsite.dk/dev-contrib/guido/Contacts/)</a>. This meaning of the
+(<a href="http://roxos.sunsite.dk/dev-contrib/guido/Contacts/%29">http://roxos.sunsite.dk/dev-contrib/guido/Contacts/)</a>. This meaning of the
 creator string is different from the meaning in Dublin core</li>
 </ul>
 <h2 id="proposed-metadata-attributes">Proposed metadata attributes</h2>
@@ -292,7 +352,7 @@ Apache handler for a file.</li>
 </ul>
 <p>Used by Beagle:</p>
 <ul>
-<li>`user.Beagle.<a href="https://secure.freedesktop.org/write/www/ikiwiki.cgi?do=create&from=CommonExtendedAttributes&page=AttrTime">?</a>AttrTime</li>
+<li>`user.Beagle.<a href="https://secure.freedesktop.org/write/www/ikiwiki.cgi?do=create&amp;from=CommonExtendedAttributes&amp;page=AttrTime">?</a>AttrTime</li>
 <li><code>user.Beagle.Fingerprint</code></li>
 <li><code>user.Beagle.MTime</code></li>
 <li><code>user.Beagle.Uid</code></li>

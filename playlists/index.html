@@ -9,9 +9,23 @@
 <title>Liberate your playlists: M3U standardization | Avid Seeker</title>
 <meta name="title" content="Liberate your playlists: M3U standardization" />
 <meta name="description" content="Stop having platform-locked playlists. Liberate them.
-I was looking for a way to view some of my friends&rsquo; playlists locally. Wouldn&rsquo;t it be great if you can diff and version-control youtube playlists, compare them with each other, merge them, simply liberating them from being platform-locked by youtube?
+I was looking for a way to view some of my friends&rsquo; playlists locally. Wouldn&rsquo;t
+it be great if you can diff and version-control youtube playlists, compare them
+with each other, merge them, simply liberating them from being platform-locked
+by youtube?
 This is a simple yt2m3u script I wrote for downloading playlists as plaintext:
-1yt2m3u 2#!/bin/sh 3yt-dlp \ 4	--convert-thumbnails jpg \ 5	--write-thumbnail -o &#34;thumbnail:%(id)s." />
+ 1yt2m3u
+ 2#!/bin/sh
+ 3yt-dlp \
+ 4	--convert-thumbnails jpg \
+ 5	--write-thumbnail -o &#34;thumbnail:%(id)s.%(ext)s&#34; \
+ 6	--no-download \
+ 7	--print-to-file &#34;\
+ 8#EXTIMG:./.cover/%(id)s.jpg
+ 9#EXT-X-SESSION-DATA:%(original_url)s
+10#EXTINF:-1,%(title)s
+11&#34; out.m3u -a -
+If you don&rsquo;t want to download thumbnails, simply" />
 <meta name="keywords" content="" />
 
 
@@ -39,9 +53,23 @@ This is a simple yt2m3u script I wrote for downloading playlists as plaintext:
 
 <meta property="og:title" content="Liberate your playlists: M3U standardization" />
 <meta property="og:description" content="Stop having platform-locked playlists. Liberate them.
-I was looking for a way to view some of my friends&rsquo; playlists locally. Wouldn&rsquo;t it be great if you can diff and version-control youtube playlists, compare them with each other, merge them, simply liberating them from being platform-locked by youtube?
+I was looking for a way to view some of my friends&rsquo; playlists locally. Wouldn&rsquo;t
+it be great if you can diff and version-control youtube playlists, compare them
+with each other, merge them, simply liberating them from being platform-locked
+by youtube?
 This is a simple yt2m3u script I wrote for downloading playlists as plaintext:
-1yt2m3u 2#!/bin/sh 3yt-dlp \ 4	--convert-thumbnails jpg \ 5	--write-thumbnail -o &#34;thumbnail:%(id)s." />
+ 1yt2m3u
+ 2#!/bin/sh
+ 3yt-dlp \
+ 4	--convert-thumbnails jpg \
+ 5	--write-thumbnail -o &#34;thumbnail:%(id)s.%(ext)s&#34; \
+ 6	--no-download \
+ 7	--print-to-file &#34;\
+ 8#EXTIMG:./.cover/%(id)s.jpg
+ 9#EXT-X-SESSION-DATA:%(original_url)s
+10#EXTINF:-1,%(title)s
+11&#34; out.m3u -a -
+If you don&rsquo;t want to download thumbnails, simply" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://avidseeker.github.io/playlists/" />
 
@@ -56,16 +84,44 @@ This is a simple yt2m3u script I wrote for downloading playlists as plaintext:
 
 <meta name="twitter:title" content="Liberate your playlists: M3U standardization"/>
 <meta name="twitter:description" content="Stop having platform-locked playlists. Liberate them.
-I was looking for a way to view some of my friends&rsquo; playlists locally. Wouldn&rsquo;t it be great if you can diff and version-control youtube playlists, compare them with each other, merge them, simply liberating them from being platform-locked by youtube?
+I was looking for a way to view some of my friends&rsquo; playlists locally. Wouldn&rsquo;t
+it be great if you can diff and version-control youtube playlists, compare them
+with each other, merge them, simply liberating them from being platform-locked
+by youtube?
 This is a simple yt2m3u script I wrote for downloading playlists as plaintext:
-1yt2m3u 2#!/bin/sh 3yt-dlp \ 4	--convert-thumbnails jpg \ 5	--write-thumbnail -o &#34;thumbnail:%(id)s."/>
+ 1yt2m3u
+ 2#!/bin/sh
+ 3yt-dlp \
+ 4	--convert-thumbnails jpg \
+ 5	--write-thumbnail -o &#34;thumbnail:%(id)s.%(ext)s&#34; \
+ 6	--no-download \
+ 7	--print-to-file &#34;\
+ 8#EXTIMG:./.cover/%(id)s.jpg
+ 9#EXT-X-SESSION-DATA:%(original_url)s
+10#EXTINF:-1,%(title)s
+11&#34; out.m3u -a -
+If you don&rsquo;t want to download thumbnails, simply"/>
 
 
 <meta itemprop="name" content="Liberate your playlists: M3U standardization">
 <meta itemprop="description" content="Stop having platform-locked playlists. Liberate them.
-I was looking for a way to view some of my friends&rsquo; playlists locally. Wouldn&rsquo;t it be great if you can diff and version-control youtube playlists, compare them with each other, merge them, simply liberating them from being platform-locked by youtube?
+I was looking for a way to view some of my friends&rsquo; playlists locally. Wouldn&rsquo;t
+it be great if you can diff and version-control youtube playlists, compare them
+with each other, merge them, simply liberating them from being platform-locked
+by youtube?
 This is a simple yt2m3u script I wrote for downloading playlists as plaintext:
-1yt2m3u 2#!/bin/sh 3yt-dlp \ 4	--convert-thumbnails jpg \ 5	--write-thumbnail -o &#34;thumbnail:%(id)s."><meta itemprop="datePublished" content="2024-07-04T00:00:00+00:00" />
+ 1yt2m3u
+ 2#!/bin/sh
+ 3yt-dlp \
+ 4	--convert-thumbnails jpg \
+ 5	--write-thumbnail -o &#34;thumbnail:%(id)s.%(ext)s&#34; \
+ 6	--no-download \
+ 7	--print-to-file &#34;\
+ 8#EXTIMG:./.cover/%(id)s.jpg
+ 9#EXT-X-SESSION-DATA:%(original_url)s
+10#EXTINF:-1,%(title)s
+11&#34; out.m3u -a -
+If you don&rsquo;t want to download thumbnails, simply"><meta itemprop="datePublished" content="2024-07-04T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2024-07-04T00:00:00+00:00" />
 <meta itemprop="wordCount" content="364">
 
